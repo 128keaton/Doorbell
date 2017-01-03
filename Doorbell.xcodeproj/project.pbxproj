@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4C526F1E179436002EE9C5 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A4C526E1E179436002EE9C5 /* NotificationCenter.framework */; };
+		8A4C52761E18BC01002EE9C5 /* wilhelm.aif in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C52751E18BC01002EE9C5 /* wilhelm.aif */; };
+		8A4C52781E18BDBC002EE9C5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C52771E18BDBC002EE9C5 /* MainMenu.xib */; };
+		8A4C527A1E18BDEE002EE9C5 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C52791E18BDEE002EE9C5 /* MenuController.swift */; };
+		8A4C527C1E18BEF1002EE9C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C527B1E18BEF1002EE9C5 /* Assets.xcassets */; };
+		8A4C527E1E18BF6D002EE9C5 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C527D1E18BF6D002EE9C5 /* 16.png */; };
+		8A4C52811E18CB22002EE9C5 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C527F1E18CB22002EE9C5 /* Preferences.swift */; };
+		8A4C52821E18CB22002EE9C5 /* PreferencesWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C52801E18CB22002EE9C5 /* PreferencesWindow.xib */; };
+		8A4C52841E1A239C002EE9C5 /* SetupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4C52831E1A239C002EE9C5 /* SetupManager.swift */; };
+		8A4C52871E1A2572002EE9C5 /* doorbell.js in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C52861E1A2572002EE9C5 /* doorbell.js */; };
+		8A4C528B1E1B0348002EE9C5 /* key.p8 in Resources */ = {isa = PBXBuildFile; fileRef = 8A4C528A1E1B0348002EE9C5 /* key.p8 */; };
 		8A6EDDD51E17938B00C55896 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EDDD41E17938B00C55896 /* AppDelegate.swift */; };
-		8A6EDDD71E17938B00C55896 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EDDD61E17938B00C55896 /* ViewController.swift */; };
-		8A6EDDD91E17938B00C55896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6EDDD81E17938B00C55896 /* Assets.xcassets */; };
-		8A6EDDDC1E17938B00C55896 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6EDDDA1E17938B00C55896 /* Main.storyboard */; };
 		8A6EDDE71E17938B00C55896 /* DoorbellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EDDE61E17938B00C55896 /* DoorbellTests.swift */; };
 		8A6EDDF21E17938B00C55896 /* DoorbellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6EDDF11E17938B00C55896 /* DoorbellUITests.swift */; };
 /* End PBXBuildFile section */
@@ -33,11 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A4C526E1E179436002EE9C5 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		8A4C52751E18BC01002EE9C5 /* wilhelm.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = wilhelm.aif; sourceTree = "<group>"; };
+		8A4C52771E18BDBC002EE9C5 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		8A4C52791E18BDEE002EE9C5 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		8A4C527B1E18BEF1002EE9C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A4C527D1E18BF6D002EE9C5 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		8A4C527F1E18CB22002EE9C5 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		8A4C52801E18CB22002EE9C5 /* PreferencesWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesWindow.xib; sourceTree = "<group>"; };
+		8A4C52831E1A239C002EE9C5 /* SetupManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SetupManager.swift; path = ../SetupManager.swift; sourceTree = "<group>"; };
+		8A4C52861E1A2572002EE9C5 /* doorbell.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = doorbell.js; sourceTree = "<group>"; };
+		8A4C528A1E1B0348002EE9C5 /* key.p8 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = key.p8; sourceTree = "<group>"; };
 		8A6EDDD11E17938B00C55896 /* Doorbell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Doorbell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6EDDD41E17938B00C55896 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A6EDDD61E17938B00C55896 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8A6EDDD81E17938B00C55896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8A6EDDDB1E17938B00C55896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A6EDDDD1E17938B00C55896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A6EDDE21E17938B00C55896 /* DoorbellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorbellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6EDDE61E17938B00C55896 /* DoorbellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorbellTests.swift; sourceTree = "<group>"; };
@@ -45,6 +61,7 @@
 		8A6EDDED1E17938B00C55896 /* DoorbellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoorbellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A6EDDF11E17938B00C55896 /* DoorbellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorbellUITests.swift; sourceTree = "<group>"; };
 		8A6EDDF31E17938B00C55896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A6EDDFF1E17939B00C55896 /* Doorbell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Doorbell.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A4C526F1E179436002EE9C5 /* NotificationCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A4C526D1E179436002EE9C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C526E1E179436002EE9C5 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A4C52851E1A255C002EE9C5 /* Stuff for Setup */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C528A1E1B0348002EE9C5 /* key.p8 */,
+				8A4C52861E1A2572002EE9C5 /* doorbell.js */,
+			);
+			name = "Stuff for Setup";
+			sourceTree = "<group>";
+		};
+		8A4C528C1E1B2156002EE9C5 /* Images/Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8A4C527D1E18BF6D002EE9C5 /* 16.png */,
+				8A4C527B1E18BEF1002EE9C5 /* Assets.xcassets */,
+				8A4C52751E18BC01002EE9C5 /* wilhelm.aif */,
+			);
+			name = Images/Sounds;
+			sourceTree = "<group>";
+		};
 		8A6EDDC81E17938B00C55896 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +124,7 @@
 				8A6EDDE51E17938B00C55896 /* DoorbellTests */,
 				8A6EDDF01E17938B00C55896 /* DoorbellUITests */,
 				8A6EDDD21E17938B00C55896 /* Products */,
+				8A4C526D1E179436002EE9C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +141,16 @@
 		8A6EDDD31E17938B00C55896 /* Doorbell */ = {
 			isa = PBXGroup;
 			children = (
+				8A4C52851E1A255C002EE9C5 /* Stuff for Setup */,
+				8A4C528C1E1B2156002EE9C5 /* Images/Sounds */,
+				8A6EDDFF1E17939B00C55896 /* Doorbell.entitlements */,
 				8A6EDDD41E17938B00C55896 /* AppDelegate.swift */,
-				8A6EDDD61E17938B00C55896 /* ViewController.swift */,
-				8A6EDDD81E17938B00C55896 /* Assets.xcassets */,
-				8A6EDDDA1E17938B00C55896 /* Main.storyboard */,
+				8A4C52791E18BDEE002EE9C5 /* MenuController.swift */,
+				8A4C52771E18BDBC002EE9C5 /* MainMenu.xib */,
+				8A4C527F1E18CB22002EE9C5 /* Preferences.swift */,
+				8A4C52801E18CB22002EE9C5 /* PreferencesWindow.xib */,
 				8A6EDDDD1E17938B00C55896 /* Info.plist */,
+				8A4C52831E1A239C002EE9C5 /* SetupManager.swift */,
 			);
 			path = Doorbell;
 			sourceTree = "<group>";
@@ -190,7 +241,13 @@
 				TargetAttributes = {
 					8A6EDDD01E17938B00C55896 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z48RKT6B3T;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					8A6EDDE11E17938B00C55896 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -229,8 +286,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6EDDD91E17938B00C55896 /* Assets.xcassets in Resources */,
-				8A6EDDDC1E17938B00C55896 /* Main.storyboard in Resources */,
+				8A4C527E1E18BF6D002EE9C5 /* 16.png in Resources */,
+				8A4C52821E18CB22002EE9C5 /* PreferencesWindow.xib in Resources */,
+				8A4C52761E18BC01002EE9C5 /* wilhelm.aif in Resources */,
+				8A4C52871E1A2572002EE9C5 /* doorbell.js in Resources */,
+				8A4C528B1E1B0348002EE9C5 /* key.p8 in Resources */,
+				8A4C527C1E18BEF1002EE9C5 /* Assets.xcassets in Resources */,
+				8A4C52781E18BDBC002EE9C5 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +317,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A6EDDD71E17938B00C55896 /* ViewController.swift in Sources */,
+				8A4C527A1E18BDEE002EE9C5 /* MenuController.swift in Sources */,
+				8A4C52841E1A239C002EE9C5 /* SetupManager.swift in Sources */,
 				8A6EDDD51E17938B00C55896 /* AppDelegate.swift in Sources */,
+				8A4C52811E18CB22002EE9C5 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,17 +354,6 @@
 			targetProxy = 8A6EDDEE1E17938B00C55896 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8A6EDDDA1E17938B00C55896 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A6EDDDB1E17938B00C55896 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		8A6EDDF41E17938B00C55896 /* Debug */ = {
@@ -397,7 +450,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Doorbell/Doorbell.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				INFOPLIST_FILE = Doorbell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.button.Doorbell;
@@ -410,7 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Doorbell/Doorbell.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z48RKT6B3T;
 				INFOPLIST_FILE = Doorbell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.button.Doorbell;
@@ -496,6 +555,7 @@
 				8A6EDDF81E17938B00C55896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6EDDF91E17938B00C55896 /* Build configuration list for PBXNativeTarget "DoorbellTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +564,7 @@
 				8A6EDDFB1E17938B00C55896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A6EDDFC1E17938B00C55896 /* Build configuration list for PBXNativeTarget "DoorbellUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +573,7 @@
 				8A6EDDFE1E17938B00C55896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
